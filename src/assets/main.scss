@@ -1,0 +1,41 @@
+@use 'base-components.scss';
+@use 'transitions.scss';
+@use './fonts.scss';
+
+* {
+  font-family: var(--default-fonts);
+  -webkit-tap-highlight-color: transparent;
+  @apply antialiased;
+  @apply box-border;
+}
+
+:root {
+  --max-width: 1200px;
+}
+
+html {
+  background: rgb(var(--bg-color));
+  overflow-y: scroll;
+  scrollbar-width: thin;
+}
+
+html.light {
+  --bg-color: 255, 255, 255;
+}
+
+html.dark {
+  --bg-color: 0, 0, 0;
+  color-scheme: dark;
+}
+
+::view-transition-new(root),
+::view-transition-old(root) {
+  animation: none;
+  mix-blend-mode: normal;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100dvh;
+}

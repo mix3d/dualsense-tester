@@ -1,24 +1,26 @@
 {
   "extends": "@vue/tsconfig/tsconfig.dom.json",
-  "include": [
-    "env.d.ts",
-    "packages/tester-frontend/src/**/*",
-    "packages/tester-frontend/src/**/*.json",
-    "packages/tester-frontend/src/**/*.vue"
-  ],
-  "exclude": [
-    "packages/tester-frontend/src/**/__tests__/*"
-  ],
   "compilerOptions": {
     "composite": true,
     "baseUrl": ".",
     "paths": {
       "@/*": [
-        "./packages/tester-frontend/src/*"
+        "src/*"
       ]
-    }
+    },
+    "typeRoots": [
+      "src/@types"
+    ],
+    "verbatimModuleSyntax": true
   },
-  "typeRoots": [
-    "packages/tester-frontend/src/@types"
+  "include": [
+    "env.d.ts",
+    "src/**/*",
+    "src/**/*.ts",
+    "src/**/*.json",
+    "src/**/*.vue"
+  ],
+  "exclude": [
+    "src/**/__tests__/*"
   ]
 }

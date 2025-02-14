@@ -1,0 +1,168 @@
+{
+  "application": {
+    "name": "أداة اختبار DualSense",
+    "footer": {
+      "copyright": "© 2025 {'|'} مبرمج بواسطة {author} ❤"
+    }
+  },
+  "shared": {
+    "unknown": "غير معروف",
+    "confirm": "تأكيد",
+    "cancel": "إلغاء",
+    "close": "أغلق",
+    "hold": "استمر بالضغط"
+  },
+  "locales": {
+    "zh-CN": "简体中文",
+    "en-US": "English (US)",
+    "ru-RU": "Русский",
+    "fa-IR": "فارسی",
+    "ar-EG": "العربية (مصر)",
+    "ar-SA": "العربية (السعودية)"
+  },
+  "common": {
+    "tips": "تلميحات",
+    "not_support_title": "المتصفح الخاص بك لا يدعم WebHID",
+    "not_support_content": "استخدم أحدث إصدار من Google Chrome أو Microsoft Edge"
+  },
+  "connect_panel": {
+    "tips": "قم بتوصيل DualSense إلى جهاز الكمبيوتر الخاص بك إما باستخدام كابل <b>USB</b> أو <b>Bluetooth</b>، ثم انقر فوق زر \"اتصال\".",
+    "connect": "اتصال",
+    "disconnect": "قطع الاتصال",
+    "not_connected": "غير متصل",
+    "connected": "متصل",
+    "seq_num": "الرقم التسلسلي",
+    "charge_status_label": "حالة الشحن",
+    "battery_level_label": "مستوى البطارية",
+    "headphone_status_label": "سماعة الرأس",
+    "microphone_status_label": "الميكروفون",
+    "factory_info_title": "بيانات المصنع",
+    "add_device": "إضافة جهاز",
+    "charge_status": {
+      "discharging": "لا يشحن",
+      "charging": "جاري الشحن",
+      "charging_complete": "تم الشحن",
+      "abnormal_voltage": "جهد غير طبيعي",
+      "abnormal_temperature": "درجة حرارة غير طبيعية",
+      "charging_error": "خطأ في الشحن",
+      "unknown": "غير معروف"
+    },
+    "battery_level": {
+      "level0": "0-9%",
+      "level1": "10-19%",
+      "level2": "20-29%",
+      "level3": "30-39%",
+      "level4": "40-49%",
+      "level5": "50-59%",
+      "level6": "60-69%",
+      "level7": "70-79%",
+      "level8": "80-89%",
+      "level9": "90-99%",
+      "level10": "100%",
+      "unknown": "غير معروف"
+    },
+    "factory_info": {
+      "build_time": "تاريخ الإصدار",
+      "hw_info": "معلومات المكونات",
+      "device_info": "معلومات الجهاز",
+      "fw_type": "نوع البرنامَج",
+      "sw_series": "سلسلة البرمجيات",
+      "update_version": "إصدار التحديث",
+      "sbl_fw_version": "إصدار SBL",
+      "main_fw_version": "إصدار البرنامَج الرئيس",
+      "dsp_fw_version": "إصدار برنامج معالج الإشارات",
+      "mcu_dsp_fw_version": "إصدار برنامَج وحدة تحكم معالج الإشارات",
+      "bt_patch_version": "إصدار تصحيح البلوتوث",
+      "pcba_id": "معرف PCBA",
+      "serial_number": "الرَّقْم التسلسلي",
+      "assemble_parts_info": "معلومات أجزاء التجميع",
+      "battery_barcode": "الكود الشريطي للبطارية",
+      "vcm_barcode": "الكود الشريطي VCM",
+      "unique_id": "المعرف الفريد",
+      "bd_mac_address": "عنوان MAC لجهاز البلوتوث",
+      "at_serial_number": "رَقْم تسلسلي AT",
+      "at_motor_info": "معلومات المحرك AT",
+      "individual_data_verify": "التحقق من البيانات الفردية",
+      "individual_data": {
+        "not_supported": "غير مدعوم",
+        "no_data": "لا توجد بيانات",
+        "start_error": "خطأ في البدء",
+        "get_error": "خطأ في الحصول",
+        "successful": "تم بنجاح",
+        "retry_timeout": "مهلة إعادة المحاولة",
+        "fail": "فشل"
+      },
+      "board_version": "إصدار اللوحة"
+    }
+  },
+  "profile_panel": {
+    "title": "مِلَفّ تعريف",
+    "default": "افتراضي",
+    "unassigned": "غير معيّن"
+  },
+  "info_panel": {
+    "tips": "يرجي توصيل جهاز DualSense أولاً",
+    "stick_module_not_found": "وحدة العصا مفقودة",
+    "title_buttons": "الأزرار الأساسية",
+    "title_accelerometer": "جهاز قياس التسارع",
+    "title_gyroscope": "جيروسكوب",
+    "pitch": "ميل",
+    "yaw": "التفاف",
+    "roll": "دوران",
+    "model_value": {
+      "on": "تفعيل عرض القيمة",
+      "off": "إيقاف عرض القيمة"
+    }
+  },
+  "output_panel": {
+    "title": "مخرجات",
+    "mic_mute_led": "ضوء حالة الميكروفون",
+    "mic_mute_led_off": "متوقف",
+    "mic_mute_led_on": "مفعل",
+    "mic_mute_led_blink": "وميض",
+    "lightbar_color": "لون شريط الضوء",
+    "player_led": "ضوء اللاعب",
+    "player_led_brightness": "السطوع",
+    "player_led_brightness_high": "عالي",
+    "player_led_brightness_medium": "متوسط",
+    "player_led_brightness_low": "منخفض",
+    "player_led_off": "متوقف",
+    "player_led_all": "الكل",
+    "rumble_heavy": "اهتزاز (ثقيل)",
+    "rumble_soft": "اهتزاز (خفيف)",
+    "left_trigger_mode": "الزناد الأيسر",
+    "right_trigger_mode": "الزناد الأيمن",
+    "trigger_mode": {
+      "off": "متوقف",
+      "resistance": "مقاومة",
+      "trigger": "زناد",
+      "auto_trigger": "زناد تلقائي"
+    },
+    "trigger_values": {
+      "start_pos": "موضع البداية",
+      "end_pos": "موضع النهاية",
+      "frequency": "التردد",
+      "force": "القوة"
+    },
+    "headphone_volume": "مستوى صوت سماعة الرأس",
+    "speaker_volume": "مستوى صوت السماعة الخارجية",
+    "haptic_volume": "مستوى صوت اللمس"
+  },
+  "audio_panel": {
+    "title": "الصوت",
+    "headphone_1khz_sine_wave_test": "موجة بتردد 1 كيلو هرتز لسماعات الرأس",
+    "speaker_1khz_sine_wave_test": "موجة بتردد 1 كيلو هرتز للسماعة الخارجية"
+  },
+  "pwa": {
+    "title": "يوجد إصدار جديد",
+    "dismiss": "تجاهل",
+    "upgrade": "تحديث",
+    "update_available": "نسخة أداة اختبار DualSense الجديدة جاهزة!\nقم بإعادة تحميل الصفحة لإكمال التحديث.",
+    "offline_ready": "تم تهيئة التطبيق الآن لاستخدامه دون اتصال بالإنترنت."
+  },
+  "git_version": {
+    "title": "معلومات التحديث",
+    "warn_pr": "هذه نسخة معاينة، يرجى استخدامها بحذر حيث قد توجد بعض المشاكل.",
+    "warn_dev": "هذه نسخة معاينة من فرع التطوير. يرجى استخدام بحذر حيث أنه قد تكون هناك مشكلات."
+  }
+}

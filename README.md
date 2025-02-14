@@ -11,31 +11,45 @@ Test your DualSense controller in the browser.
 * Test the gyroscope and accelerometer
 * Test the vibration motors
 * Test the lights
-* **TODO:** Test the adaptive triggers
+* Test the adaptive triggers
+* DualSense Edge Basic Support
+* **TODO**: DualSense Edge Full Support (2025Q2)
+* **TODO**: Multiple Controllers Support (2025Q2)
+* **TODO**: DualSense Edge Profile Customization (2025Q2)
 
 ## Project Setup
 
 ```sh
-pnpm install
-```
-
-### Compile dualsense.js first
-
-```sh
-pnpm build:lib
+bun i
 ```
 
 ### Compile and Hot-Reload for Development
 
 ```sh
-pnpm dev:fe
+bun run --bun dev
 ```
 
 ### Type-Check, Compile and Minify for Production
 
 ```sh
-pnpm build:fe
+bun run --bun build
 ```
+
+### (Optional) Compile and Hot-Reload for Isolated Web App Development
+
+```sh
+bun run --bun dev:iwa
+```
+
+### (Optional) Compile and Minify for Isolated Web App
+
+```sh
+bun run --bun build:iwa
+```
+
+## Translations
+
+If you want to add a new language support or improve an existing one, please visit issue #14 for more details.
 
 ## Credits
 
